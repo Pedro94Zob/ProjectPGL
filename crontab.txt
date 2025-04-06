@@ -22,7 +22,7 @@
 # 
 # m h  dom mon dow   command
 # Exécuter le scrapper toutes les 5 minutes
-# Exécuter le scrapper toutes les 5 minutes
+# Exécuter le scrapper toutes les 10 minutes
 */10 * * * * /home/pedroelmordjenne/ProjectPGL/scraper.sh >> /home/pedroelmordjenne/ProjectPGL/scraper.log 2>&1
 
 # Générer le rapport quotidien tous les jours à 20h
